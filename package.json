@@ -1,0 +1,27 @@
+{
+  "name": "chatserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server",
+    "start": "node server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hassan Abbas",
+  "license": "ISC",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "express": "^4.17.1",
+    "http": "*",
+    "moment": "^2.29.1",
+    "mongoose": "^5.12.10",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.7",
+    "socket.io": "^4.1.2"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.14.2",
+    "prettier": "2.3.0"
+  }
+}
